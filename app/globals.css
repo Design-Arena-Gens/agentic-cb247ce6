@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  color-scheme: light;
+  --rose: #ff5c8a;
+  --rose-dark: #d8416e;
+  --gold: #ffd166;
+  --soft-pink: #ffe1f0;
+  --deep-red: #8b1e3f;
+  --text-dark: #4a0e25;
+  --card-bg: rgba(255, 241, 247, 0.88);
+  --shadow: rgba(255, 92, 138, 0.35);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: radial-gradient(circle at top, #ffd6eb, #ffb6d9 40%, #ff8dc2 75%, #ff6cad 100%);
+  font-family: 'Poppins', system-ui, sans-serif;
+  color: var(--text-dark);
+}
+
+body {
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+#root, body {
+  min-height: 100vh;
+}
